@@ -1,0 +1,34 @@
+h1,h2,h3 {
+  font-family: Bradley Hand, cursive; 
+  font-weight: bold;
+  text-align: center;
+}
+/*МЕНЮ*/
+ul li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul {
+  font-family: Bradley Hand, cursive;  
+  background-color: #75abed;
+  font-size: 20px;
+  padding: 0;
+}
+ul li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+.active {
+  background-color: #0099FF;
+}
+/*Подвал*/
+.footer{
+  font-family: Bradley Hand, cursive; 
+  padding: 0.95rem;
+  background-color: #567faa;
+  color: #FFF;
+}

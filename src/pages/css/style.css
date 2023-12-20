@@ -1,0 +1,51 @@
+/*Основной контейнер*/
+.container1 {
+    font-family: Bradley Hand, cursive;  
+    color: #000;
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: 650px 750px;
+    justify-content: center; /*по центру*/
+    margin: 0 auto;
+ /* align-items: flex-start;  элементы контейнера по размеру текста  */
+  }
+    /*Контейнер страницы 2*/
+    .container2 {
+      font-family: Bradley Hand, cursive;  
+      color: #000;
+      font-size: 16px;
+      display: grid;
+      grid-template-columns: 500px 400px 500px;
+      justify-content: center; /*по центру*/
+      margin: 0 auto;
+      /*align-items: flex-start;  элементы контейнера по размеру текста  */
+    }
+    /*Контейнер страниц 3,4,*/
+    .container3 {
+      display: grid;
+      grid-template-columns: 1000px;
+      justify-content: center; /*по центру*/
+    }
+/* Блоки - элементы внутри контейнера*/
+  .Art_Home{
+    background-color: #ffffff33;
+   /*значения трех свойств flex-grow, flex-shrink и flex-basis, определяют ширину колонок*/
+    grid-row: 1;  /*Номер строки*/  /* колонки одинаковой ширины*/
+    padding: 1em;
+    height: 100%;  /*Высота элемента в контейнере*/
+    width: 90vw;
+
+  }
+
+  .Art_Info{
+    background-color: #ffffff98;
+   /*значения трех свойств flex-grow, flex-shrink и flex-basis, определяют ширину колонок*/
+    grid-row: 1;  /*Номер строки*/  /* колонки одинаковой ширины*/
+    padding: 1em;
+    height: 100%;  /*Высота элемента в контейнере*/
+    width: 90vw;
+  }
+
+.container{
+  text-align: center;
+}
